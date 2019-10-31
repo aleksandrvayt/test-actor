@@ -7,7 +7,7 @@ export default function Hero({actors,removeActors}) {
             <h2>
             {actors.name}
             </h2>
-            <button type="submit" className="m-1" onClick={() => removeActors(actors.name)}>X</button>
+            <button type="submit" className="m-1 btn btn-danger" onClick={() => removeActors(actors.name)}>X</button>
         </div>
     )
 }

@@ -23,7 +23,7 @@ export const Form = ({ onCreate }) => {
                 value={value}
                 onChange={e => setValue(e.target.value)}
                 />
-                <button type="submit" className="m-1">Добавить актера</button>
+                <button type="submit" className="m-1 btn btn-success">Добавить актера</button>
             </div>
         </form>
     )
