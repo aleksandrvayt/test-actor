@@ -28,3 +28,6 @@ code {
 .navHeight{
   height: 12vh;
 }
+.loading{
+  width: 200px;
+}

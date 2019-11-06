@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import { Form } from './Form'
 import Hero from './Hero'
+import Loading from './Loading'
 
 export default function About() {
 
@@ -36,7 +37,7 @@ export default function About() {
         
           <div>
               <Form onCreate={addActors}/>
-              {loading && <h2>Загрузка...</h2>}
+              {loading && <Loading/>}
               {actors.length ? (
                 
                 actors.map(actor => {
